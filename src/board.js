@@ -536,9 +536,7 @@ exports.isNormalCastling = (fullBoard) => {
 
     if (Array.isArray(timeline) && timeline.length > 0) continue;
 
-    const currTurn = timeline[0];
-
-    currTurn = (isTurnZero) ? timeline[2] : currTurn;
+    const currTurn = timeline[isTurnZero ? 2 : 0];
 
     if (!Array.isArray(currTurn)) continue;
 

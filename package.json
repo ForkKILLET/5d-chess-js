@@ -1,5 +1,6 @@
 {
   "name": "5d-chess-js",
+  "private": true,
   "author": {
     "name": "Shaun Wu",
     "email": "alexbay218@gmail.com"
@@ -16,11 +17,16 @@
     {
       "name": "Neathp",
       "url": "https://gitlab.com/ehphillips.neathp"
+    },
+    {
+      "name": "ForkKILLET",
+      "url": "https://github.com/ForkKILLET"
     }
   ],
   "version": "1.2.1",
   "description": "Open source implementation of '5D Chess With Multiverse Time Travel' in the style of Chess.js library with built-in notation support.",
   "main": "./dist/5d-chess.js",
+  "typings": "lib/index.d.ts",
   "browser": {
     "module-alias/register": false
   },
